@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        function add(a,b,c){
+            var LHS=(a+b-c)*2;
+            console.log(LHS);
+            var RHS=(a**2)+(b**2)+(c**2)+(2*a*b)-(2*b*c)-(2*c*a);
+            console.log(RHS);
+
+            var result=(LHS==RHS)?"verified":"not Verified";
+            console.log(result);
+        }
+        add(5,7,3);
+    </script>
+</body>
+</html>

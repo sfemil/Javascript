@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        #myStyle {
+            background-color: coral;
+            padding: 16px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="myFunction()">Toggle</button>
+        <div id="myDIV">
+        <p>I am myDIV.</p>
+        </div>
+<script>
+        function myFunction() {
+        document.getElementById("myDIV").classList.toggle("myStyle");
+        }
+</script>
+</body>
+</html>
